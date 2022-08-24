@@ -1,0 +1,81 @@
+/* etiqueta {propiedad: valor} */
+
+/* llamar a la etiqueta directo 'etiqueta'*/
+*{border: 1px black}
+
+body{
+    background-color:rgb(196, 91, 91);}
+
+
+/*llamar a una clase '.clase'*/
+.titular{
+    background-color:firebrick;
+    font-size: 25px;
+    }
+
+/*footer*/
+
+#contacto{
+    display: inline-block;
+    color: rgb(60, 59, 59);
+    }
+
+.elemento{
+    display: inline-block;
+    font-size: x-large;
+}
+
+
+
+/**************************/
+
+.rojo{
+    color: red;
+    background-color: #fff;
+    }
+
+.border{
+    border: 2px solid red;
+    }
+
+/*DEFINITORIO*/
+
+div.sticky {
+    width: 100vw;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+    }
+
+div.fixed{ 
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 2;
+    }
+
+.relative{
+    position: relative;
+    left: 50vw;
+}
+
+.parrafos{
+    padding: 90px;
+}
+
+#novedades{
+    width: 30%;
+    height: 100%;
+    padding: 100px;
+    float: left;
+    overflow: hidden;
+}
+
+#ofertas{
+    width: auto;
+    padding: 100px;
+    overflow: hidden;
+}
+
