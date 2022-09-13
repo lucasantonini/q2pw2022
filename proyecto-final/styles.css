@@ -1,0 +1,68 @@
+.MENU{
+    position: sticky;
+    bottom: 0;
+    background-color: white;
+}
+
+.MENU > ul li{
+    border: 1px solid black;
+    padding: 10px 20px 10px 20px;
+    display: inline;
+    margin:0 150px 0 150px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo{
+    position: sticky;
+    top: 0;
+    padding: 10px 0 10px 48%;
+    background-color: white;
+}
+
+.presentacion{
+    height: 400px;
+    background-image: url(/proyecto-final/images/amigos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#titupresentacion{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px black;
+}
+
+.sections{
+    margin: 10px 0 10px 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    overflow: auto;
+    white-space: nowrap;
+    background: transparent;
+    height: 100%;
+}
+
+.sections1{
+    display:inline-block;
+}
+
+#categorias{
+    padding: 50px;
+    justify-content: space-around;
+}
+
+#populares{
+    padding: 50px;
+}
+
+#nuevas{
+    padding: 50px;
+}
+
+div{
+    border: 1px solid black;
+}
