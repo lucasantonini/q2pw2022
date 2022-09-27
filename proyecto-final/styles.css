@@ -7,7 +7,7 @@
 .MENU > ul li{
     border: 1px solid black;
     padding: 10px 20px 10px 20px;
-    display: inline;
+    display: inline-block;
     margin:0 150px 0 150px;
 }
 
@@ -65,4 +65,12 @@
 
 div{
     border: 1px solid black;
+}
+
+@media only screen and (max-width: 500px) {
+    .MENU{
+        position:fixed;
+        left: 0;
+        width: 0.3fr;
+    }
 }

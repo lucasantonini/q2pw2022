@@ -1,0 +1,72 @@
+.container { 
+    display: grid;
+    grid-template-columns: 0.6fr 1fr 1fr 1fr;
+    grid-template-rows: 1.2fr 1fr 1fr 1fr 0.8fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "MENU BANNER BANNER BANNER"
+    "MENU VIDRIERA1 VIDRIERA1 VIDRIERA1"
+    "MENU VIDRIERA2 VIDRIERA2 VIDRIERA2"
+    "MENU VIDRIERA3 VIDRIERA3 VIDRIERA3"
+    "MENU FOOTER FOOTER FOOTER";
+    
+}
+
+.BANNER {
+    grid-area: BANNER;
+    
+}
+
+.VIDRIERA1 {
+    grid-area: VIDRIERA1;
+    margin: 10px 0 10px 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    overflow: auto;
+    white-space: nowrap;
+    background: transparent;
+    height: 100%;
+    padding: 50px;
+}
+
+.VIDRIERA2 {
+    grid-area: VIDRIERA2;
+    margin: 10px 0 10px 0;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    overflow: auto;
+    white-space: nowrap;
+    background: transparent;
+    height: 100%;
+    padding: 50px;
+}
+
+.FOOTER { grid-area: FOOTER; }
+
+.MENU { grid-area: MENU; }
+
+.VIDRIERA3 { grid-area: VIDRIERA3; }
+
+
+.presentacion{
+    height: 400px;
+    background-image: url(/proyecto-final/images/amigos.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#titupresentacion{
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px black;
+}
+
+.sections{
+    display:inline-block;
+}
+
+
+
+@media only screen and (max-width: 500px) {
+    
+}
