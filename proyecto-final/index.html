@@ -15,7 +15,7 @@
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <a class="navbar-brand" href="#">AUTORG</a>
+          <img class="navbar-brand" src="./images/mundo2.png" alt="LOGO">
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
             <div class="offcanvas-header bg-dark">
               <h5 class="offcanvas-title" style="color: white;" id="offcanvasNavbarLabel">MENU</h5>
@@ -24,16 +24,13 @@
             <div class="offcanvas-body bg-dark" style="align-items: center" >
               <ul class="navbar-nav flex-grow-1 pe-3 bg-dark" style="align-items: center">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                  <a class="nav-link active" aria-current="page" href="./index.html">HOME</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">DESCUBRIR</a>
+                    <a class="nav-link active" aria-current="page" href="#">FILTRAR</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">FAVORITOS</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">CONFIG</a>
                 </li>
               </ul>
               <form class="d-flex" role="search">
@@ -59,18 +56,18 @@
 
 
         <!-- CATEGORIAS -->
-        <div class="flex-container" style="justify-content:center"><h2>CATEGORIAS</h2></div> 
+        <div class="flex-container" id="cate" style="justify-content:center"><h2>CATEGORIAS</h2></div> 
         <div class="flex-container" id="categorias"> 
-            <img src="https://via.placeholder.com/100" alt="exp">
-            <img src="https://via.placeholder.com/100" alt="exp">
-            <img src="https://via.placeholder.com/100" alt="exp">
-            <img src="https://via.placeholder.com/100" alt="exp">
-            <img src="https://via.placeholder.com/100" alt="exp">
+            <a href=""> <img src="./images/comida.png" alt="comida"> </a>
+            <a href=""> <img src="./images/grupo.png" alt="grupo"> </a>
+            <a href=""> <img src="./images/aire_libre.png" alt="aire libre"> </a>
+            <a href=""> <img src="./images/vida_nocturna.png" alt="vida nocturna"> </a>
+            <a href=""> <img src="./images/cama.png" alt="estadia"> </a>
         </div>
 
 
         <!-- SCROLL DE EXP POPULARES -->
-        <h2>EXPERIENCIAS POPULARES</h2>
+        <div class="titus border-bottom"><h2>EXPERIENCIAS POPULARES</h2></div>
         <div class="sections" id="populares">   
             <div class="sections1">
               <img src="https://via.placeholder.com/100" alt="exp">
@@ -93,7 +90,7 @@
 
 
         <!-- SCROLL DE EXP NUEVAS -->
-        <h2>NUEVAS ADICIONES</h2>
+        <div class="titus border-bottom"><h2>NUEVAS ADICIONES</h2></div>
         <div class="sections" id="nuevas">
             <div class="sections1">
               <img src="https://via.placeholder.com/100" alt="exp">

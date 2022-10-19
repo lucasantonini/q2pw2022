@@ -55,7 +55,18 @@ main{
     padding: 50px;
 }
 
+.titus{
+    margin: 20px;
+}
 
+#cate{
+    margin-top: 20px;
+}
+
+#cate{
+    text-decoration-line: underline;
+    text-decoration-color: aliceblue;
+}
 /* div{
     border: 1px solid black;
 } */
