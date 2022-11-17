@@ -10,7 +10,7 @@
 </head>
 <body>
     <!-- BARRA DE NAVEGACION -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
@@ -33,30 +33,53 @@
                     <a class="nav-link active" aria-current="page" href="#">FAVORITOS</a>
                 </li>
               </ul>
-              <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Buscar Experiencia" aria-label="buscar">
-              </form>
+              <a href=""><img class="navbar-brand" src="./images/carrito.png" alt="carrito"></a>
             </div>
           </div>
         </div>
     </nav>
+    
 
 
     <header>
         <!-- LOGO -->
-        
     </header>
 
 
     <main>
-        <!-- BANNER DE PRESENTACION -->
-        <div class="flex-container presentacion">
-            <h1 id="titupresentacion">¿QUÉ VAS A HACER HOY?</h1>
+      <!--                              ------------BANNER PRESENTACIÓN COMPUTADORA--------------                                   -->
+
+      <div class="presentacion-lg">
+        <h1 id="titupresentacion">¿QUÉ VAS A HACER HOY?</h1>
+      </div>
+      <div class="presentacion-sm">
+        <h1 id="titupresentacion">¿QUÉ VAS A HACER HOY?</h1>
+      </div>
+
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="./images/amigos.jpg" class="d-block w-100" alt="...">
+          </div>
+
+          <div class="carousel-item">
+            <img src="./images/amigos-noche.jpg" class="d-block w-100" alt="...">
+          </div>
+
+          <div class="carousel-item">
+            <img src="./images/girasoles.jpg" class="d-block w-100" alt="...">
+          </div>
+
+          <div class="carousel-item">
+            <img src="./images/fogon.jpg" class="d-block w-100" alt="...">
+          </div>
+
         </div>
+      </div>
 
-
-        <!-- CATEGORIAS -->
-        <div class="flex-container" id="cate" style="justify-content:center"><h2>CATEGORIAS</h2></div> 
+      <!--                                       ------------CATEGORIAS--------------                                              --> 
         <div class="flex-container" id="categorias"> 
             <a href=""> <img src="./images/comida.png" alt="comida"> </a>
             <a href=""> <img src="./images/grupo.png" alt="grupo"> </a>
@@ -66,7 +89,7 @@
         </div>
 
 
-        <!-- SCROLL DE EXP POPULARES -->
+        <!--                                   ------------SCROLL DE EXP POPULARES--------------                                   -->
         <div class="titus border-bottom"><h2>EXPERIENCIAS POPULARES</h2></div>
         <div class="sections" id="populares">   
             <div class="sections1">
@@ -88,8 +111,7 @@
             </div>
         </div>
 
-
-        <!-- SCROLL DE EXP NUEVAS -->
+        <!--                                      ------------SCROLL DE EXP NUEVAS--------------                                   -->
         <div class="titus border-bottom"><h2>NUEVAS ADICIONES</h2></div>
         <div class="sections" id="nuevas">
             <div class="sections1">

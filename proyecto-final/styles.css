@@ -5,16 +5,21 @@
     align-items: center;
 }
 
-.presentacion{
-    height: 400px;
-    background-image: url(/proyecto-final/images/amigos.jpg);
-    background-size: cover;
-    background-position: center;
-}
-
 #titupresentacion{
     color: white;
     text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px black;
+}
+.presentacion-lg{
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 100;
+    position: absolute;
+    top: 43vh;
+    left: 31vw;
+}
+
+.presentacion-sm{
+    display: none;
 }
 
 .sections{
@@ -71,3 +76,18 @@ main{
     border: 1px solid black;
 } */
 
+
+@media screen and (max-width: 768px) {
+    .presentacion-lg{
+        display: none;
+    }
+
+    .presentacion-sm{
+        display: flex;
+        flex-wrap: wrap;
+        z-index: 100;
+        position: absolute;
+        top: 33vh;
+        left: 21vw;
+    }
+}
